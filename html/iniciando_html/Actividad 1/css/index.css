@@ -12,9 +12,12 @@ nav{
 }
 h1{
     font-size: 87px;
+    color: brown;
 }
 .img{
     text-align: center;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6vVDSUIzmdxU6-ENJI6Z0gFi3xvKi4GCSbg&usqp=CAU);
+
 }
 h2 { 
     color: aliceblue;
@@ -29,12 +32,32 @@ h3 {
 p { 
     color: aliceblue;
 }
+a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
 form{
 text-align: center;
 }
 h4 { 
-    color: aliceblue;
+    color:rgb(255, 255, 255);
 }
 label{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
+input {
+    font-size: 18px;
+}
+.formulario{
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    
+}
+.contenedor_submit{
+    border: 5px solid brown;
+    padding: 13px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR41Ba_PQHoQrTDfkn73ha8_Y9Ln-iSK7X1CQ&usqp=CAU://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2rrfejC01aw99lLjYrEYOZk559qJZujqvCw&usqp=CAU);
+}
+
